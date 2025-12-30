@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #e0f2f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.weather-box h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.weather-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.weather-box button {
+  background-color: #0288d1;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.weather-box button:hover {
+  background-color: #0277bd;
+}
+
+.weather-box img {
+  width: 80px;
+  margin: 15px 0;
+}
+
+.weather-box p {
+  margin: 8px 0;
+  font-size: 18px;
+}
