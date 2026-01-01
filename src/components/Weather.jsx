@@ -23,7 +23,7 @@ const Weather = () => {
 
   return (
     <div className="weather-box">
-      <h1 className='text-8xl underline'>Ali Rizwan Weather App</h1>
+      <h1 className='text-8xl underline'>My Weather App</h1>
       <input
         type="text"
         placeholder="Enter city"
